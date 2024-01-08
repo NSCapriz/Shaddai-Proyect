@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 .container-navbar{
-    background-color: #81bf54;
+    background-color: #44A64A;
     color: whitesmoke;
     border-bottom: solid 1px white;
-    box-shadow: rgb(129, 191, 84) 1rem 0 1.5rem 0.3rem;
+    box-shadow: rgb(68, 166, 74) 1rem 0 2rem 0.3rem;
 }
 
 .container-navbar img{
@@ -44,7 +44,7 @@
       display: block;
       cursor: pointer;
       margin-right: 1rem;
-      background-color: #81BF54;
+      background-color: #44A64A;
       color: white;
       border: solid white;
       border-radius: 50%;
@@ -60,8 +60,9 @@
       width: 25vh;
       padding: 1rem;
       text-align: center;
-      background-color: #81BF54;
+      background-color: #44A64A;
       margin-right: 0.5rem;
+      z-index: 1;
     }
   
     .nav-list.show {

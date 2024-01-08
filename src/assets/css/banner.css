@@ -1,18 +1,82 @@
+
 .container-banner img{
     border-radius: 50%;
     width: 40%;
     margin-top: 3vh;
     margin-left: 25vh;
     box-shadow: #7dc2db 0 0 6rem 0.3rem;
-    animation: flotante 3s ease infinite;
+    animation: flotante 5s ease infinite;
+}
+
+.container-banner h1 {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    
+    color: white;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+.container-banner p{
+    color: white;
+    animation: fadeIn 5.5s;
+}
+
+body {
+    background: #111;
+}
+.hidden {
+    opacity:0;
+}
+.console-container {
+    font-family: monospace;
+    font-size:1em;
+    text-align:center;
+    display:block;
+    position:absolute;
+    color:white;
+    margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.particle-canvas {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to bottom, #2F4858 0%,#075C6E 100%);
+    vertical-align: middle;
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50%{ border: transparent;}
 }
 
 @keyframes flotante {
 
     0%{transform: translateY(0);}
 
-    50%{transform: translateY(5vh);}
+    50%{transform: translateY(4vh);}
 
     100%{transform: translateY(0);}
     
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;
+        filter: blur(20px);
+    }
+    
+    10%{ opacity: 1;
+        filter: brightness(2) blur(10px);
+    }
 }
