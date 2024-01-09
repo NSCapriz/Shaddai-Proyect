@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import meditacion from '../../assets/img/meditación.jpg'
+import logo from '../../assets/img/Logo-Shaddai.jpeg'
 import { SwitchTransition, CSSTransition } from "react-transition-group";
 import '../../assets/css/banner.css'
 import { useEffect } from 'react';
@@ -23,21 +23,23 @@ const Banner = () => {
 
     return (
         <>
-            <div className="particle-canvas">
-                <div className="row align-items-center container-banner">
+            <div className="particle-canvas mt-5">
+                <div className="row align-items-center justify-content-center container-banner">
                     <div className="col-md-6">
-                        <img src={meditacion} alt="mujer meditando" className='img-fluid d-flex ' />
+                        <img src={logo} alt="logo shaddai" className='img-fluid d-flex' />
                     </div>
                     <div className="col-md-6">
-                        <h1 className='text-center mt-5 ms-2'>Bienvenidos a Shaddai!</h1>
+                        <div className="d-flex juystify-content-center align-items-center">
+                            <h1 className='text-center mt-5 px-2'>Bienvenidos a Shaddai!</h1>
+                        </div>
                         <SwitchTransition>
                             <CSSTransition classNames="fade" key={frases[contador]} addEndListener={(node, done) => node.addEventListener("transitionend", done, false)}>
-                                <div className='frases ms-2'>{frases[contador]}</div>
+                                <div className='frases px-2'>{frases[contador]}</div>
                             </CSSTransition>
                         </SwitchTransition>
-                        <p className='mt-4 ms-2'>Shaddai, es un espacio Holistico pensado para todas aquellas personas qe buscan armonía, conocimiento interior, desarrollo y crecimiento personal...</p>
+                        <p className='mt-4 px-2'>Shaddai, es un espacio Holistico pensado para todas aquellas personas qe buscan armonía, conocimiento interior, desarrollo y crecimiento personal...</p>
                         <div className="d-flex justify-content-center align-items-center">
-                            <button className='btn btn-primary text-white fw-bolder mt-3 mb-5 ms-2'>Conocer más</button>
+                            <button className='btn btn-success text-white fw-bolder mt-3 mb-5 px-2'>Conocer más</button>
                         </div>
                     </div>
                 </div>

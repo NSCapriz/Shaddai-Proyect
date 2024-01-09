@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.container-queSomos {
+    background-color: #5BFC66;
+}
+
+.container-queSomos h2 {
+    font-family: 'Salsa', cursive;
+}
+
+.container-queSomos span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}

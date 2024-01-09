@@ -3,7 +3,6 @@
 .container-banner img{
     border-radius: 50%;
     width: 40%;
-    margin-top: 3vh;
     margin-left: 25vh;
     box-shadow: #9bd5eb 0 0 7rem 0.3rem;
     animation: flotante 5s ease infinite;
@@ -23,6 +22,8 @@
     color: white;
     font-weight: bolder;
     text-align: center;
+    font-size: 1.3em;
+    font-family: 'Salsa', cursive;
 }
 
 .fade-enter{
@@ -96,8 +97,5 @@
 @media (max-width: 768px) {
     .container-banner{
         text-align: center;
-    }
-    .container-banner img{     
-        margin-left: 50%;
     }
 }
