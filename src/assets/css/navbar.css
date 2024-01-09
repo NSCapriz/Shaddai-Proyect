@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
 
 .container-navbar{
     background-color: #44A64A;
     color: whitesmoke;
     border-bottom: solid 1px white;
-    box-shadow: rgb(68, 166, 74) 1rem 0 2rem 0.3rem;
+    box-shadow: rgb(170, 243, 175) 0 1rem 1rem 0.3rem;
 }
 
 .container-navbar img{
@@ -14,7 +14,7 @@
 }
 
 .container-navbar p{
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Marhey', sans-serif;
 }
 
 .container_navbar--links{ 
@@ -34,8 +34,9 @@
   .container_navbar--links ul li{
     padding-left: 1rem;
     padding-right: 1rem;
-    font-weight: bolder;
+    font-size: 1.2em;
     list-style: none;
+    font-family: 'Salsa', cursive;
   }
   
   
@@ -44,7 +45,7 @@
       display: block;
       cursor: pointer;
       margin-right: 1rem;
-      background-color: #44A64A;
+      background-color: #44a64b44;
       color: white;
       border: solid white;
       border-radius: 50%;

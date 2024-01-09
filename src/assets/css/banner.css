@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
 
 .container-banner img{
     border-radius: 50%;
@@ -10,7 +11,7 @@
 
 .container-banner h1 {
     display: block;
-    font-family: monospace;
+    font-family: 'Marhey', sans-serif;
     white-space: nowrap;
     color: white;
     width: 22ch;
@@ -21,29 +22,35 @@
 .frases {
     color: white;
     font-weight: bolder;
+    text-align: center;
 }
 
 .fade-enter{
     opacity: 0;
- }
- .fade-exit{
+}
+
+.fade-exit{
     opacity: 1;
- }
- .fade-enter-active{
+}
+
+.fade-enter-active{
     opacity: 1;
- }
- .fade-exit-active{
+}
+
+.fade-exit-active{
     opacity: 0;
- }
- .fade-enter-active,
- .fade-exit-active{
+}
+
+.fade-enter-active,
+.fade-exit-active{
     transition: opacity 500ms;
- }
+}
 
 .container-banner p{
     color: white;
     animation: fadeIn 3s;
     font-style: italic;
+    text-align: center;
 }
 
 .container-banner button {
@@ -53,7 +60,8 @@
 .particle-canvas {
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom, #2F4858 0%,#075C6E 100%);
+    background: linear-gradient(to bottom, #0a4105 0%,#22831a 100%);
+    /* background: linear-gradient(to bottom, #2F4858 0%,#075C6E 100%); */
     vertical-align: middle;
 }
 
@@ -82,5 +90,14 @@
     
     10%{ opacity: 1;
         filter: brightness(2) blur(10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .container-banner{
+        text-align: center;
+    }
+    .container-banner img{     
+        margin-left: 50%;
     }
 }
