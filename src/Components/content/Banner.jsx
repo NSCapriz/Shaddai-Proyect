@@ -24,9 +24,11 @@ const Banner = () => {
     return (
         <>
             <div className="particle-canvas mt-5">
-                <div className="row align-items-center justify-content-center container-banner">
+                <div className="row align-items-center justify container-banner">
                     <div className="col-md-6">
-                        <img src={logo} alt="logo shaddai" className='img-fluid d-flex' />
+                        <div className="d-flex justify-content-center align-items-center">
+                            <img src={logo} alt="logo shaddai" className='img-fluid' />
+                        </div>
                     </div>
                     <div className="col-md-6">
                         <div className="d-flex juystify-content-center align-items-center">
@@ -37,9 +39,9 @@ const Banner = () => {
                                 <div className='frases px-2'>{frases[contador]}</div>
                             </CSSTransition>
                         </SwitchTransition>
-                        <p className='mt-4 px-2'>Shaddai, es un espacio Holistico pensado para todas aquellas personas qe buscan armonía, conocimiento interior, desarrollo y crecimiento personal...</p>
+                        <p className='mt-5 px-3'>Shaddai, es un espacio Holistico pensado para todas aquellas personas qe buscan armonía, conocimiento interior, desarrollo y crecimiento personal...</p>
                         <div className="d-flex justify-content-center align-items-center">
-                            <button className='btn btn-success text-white fw-bolder mt-3 mb-5 px-2'>Conocer más</button>
+                            <button className='btn btn-success text-white fw-bolder mt-4 mb-5 px-2'>Conocer más</button>
                         </div>
                     </div>
                 </div>

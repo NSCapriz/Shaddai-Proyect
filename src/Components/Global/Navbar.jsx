@@ -24,9 +24,9 @@ const Navbar = () => {
             </svg>
             </button>
             <ul className={`nav-list ${menu ? 'show' : ''}`}>
-                <li >Inicio</li>
-                <li className='mx-4'>¿Qué somos?</li>
-                <li >Sign in</li>
+                <li ><a href='#'>Inicio</a></li>
+                <li className='mx-4'><a href='#'>¿Qué somos?</a></li>
+                <li ><a href='#'>Servicios</a></li>
             </ul>
         </div>
     </div>

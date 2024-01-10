@@ -3,7 +3,6 @@
 .container-banner img{
     border-radius: 50%;
     width: 40%;
-    margin-left: 25vh;
     box-shadow: #9bd5eb 0 0 7rem 0.3rem;
     animation: flotante 5s ease infinite;
 }
@@ -52,6 +51,7 @@
     animation: fadeIn 3s;
     font-style: italic;
     text-align: center;
+    font-size: 1em;
 }
 
 .container-banner button {
@@ -61,9 +61,10 @@
 .particle-canvas {
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom, #0a4105 0%,#22831a 100%);
+    background: linear-gradient(to bottom, #277320 0%,#57A650 100%);
     /* background: linear-gradient(to bottom, #2F4858 0%,#075C6E 100%); */
     vertical-align: middle;
+    margin-bottom: 5rem;
 }
 
 @keyframes typing {
@@ -97,5 +98,8 @@
 @media (max-width: 768px) {
     .container-banner{
         text-align: center;
+        
     }
+
+    
 }

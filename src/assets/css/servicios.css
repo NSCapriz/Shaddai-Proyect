@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
+
+.container-servicios{
+    background-color: #B3FFE0;
+}
+
+.container-servicios h2{
+    font-family: 'Salsa', cursive;
+}
