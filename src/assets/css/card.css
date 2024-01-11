@@ -3,3 +3,11 @@
 .image-description h3{
     font-family: 'Marhey', sans-serif;
 }
+
+.container-list {
+    list-style: none;
+}
+
+.container-list li{
+    border: solid 1px black;
+}
