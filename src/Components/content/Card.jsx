@@ -7,19 +7,22 @@ const Card = () => {
             <ul className="row justify-content-center align-items-center container-list">
                 {contenido.map((contenido, index) => (
                     <li
-                        className={`col-md-3 mx-2 px-5 my-5`}
+                        className={`col-md-3 mx-2 px-3 my-4`}
                         key={index}
                     >
 
-                        <div className="text-center my-3">
-                            <div className="d-flex justify-content-center align-items-center">
-                                <img
+                        <div className="text-center my-3 card-container">
+                            <div className="card-front">
+                                <div className="text-center d-flex justify-content-center align-items-center">
+                                    <img
                                     src={contenido.imagen}
                                     alt="Imagen 1"
-                                    className="image"
-                                />
+                                    className="card-image"
+                                    />
+                                    <h3>{contenido.titulo}</h3>
+                                </div>
                             </div>
-                            <div className="image-description">
+                            <div className="card-back">
                                 <h3>{contenido.titulo}</h3>
                                 <p>{contenido.txt}</p>
                             </div>

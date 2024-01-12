@@ -1,7 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
 
-.image-description h3{
+.card-container {
+    height: 50vh;
+}
+
+.card-container {
+    position: relative;
+    cursor: pointer;
+    border: solid 1px black;
+    background-color: rgb(170, 100, 236);
+    
+}
+
+.card-container div {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.card-front{
+    transform: perspective(500px) rotateY(0deg);
+    background-color: white;
+}
+
+.card-back {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-back .card-front h3{
     font-family: 'Marhey', sans-serif;
+}
+
+.card-container:hover .card-front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-container:hover .card-back{
+    transform: perspective(500px) rotateY(360deg);
 }
 
 .container-list {
@@ -10,4 +45,6 @@
 
 .container-list li{
     border: solid 1px black;
+    background-color: white;
+    border-radius: 15px;
 }
