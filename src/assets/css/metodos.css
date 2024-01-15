@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
+
+.container-metodos{
+    background-color: rgb(101, 175, 165);
+    color: #333232;
+}
+
+.container-metodos h2 {
+    font: 3em 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.container-metodos p{
+    font-family: 'Salsa', cursive;
+    font-size: 1.2rem;
+}

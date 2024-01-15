@@ -17,10 +17,10 @@ const Card = () => {
                                     <img
                                         src={contenido.imagen}
                                         alt={contenido.titulo}
-                                        className="img-fluid card-image"
+                                        className="img-fluid card-image mt-3"
                                     />
                                 </div>
-                                <h3 className="text-center mt-5 pt-5 ">{contenido.titulo}</h3>
+                                <h3 className="text-center mt-5 pt-5 fs-4">{contenido.titulo}</h3>
                             </div>
                             <div className="card-back pt-5 px-2">
                                 <h3>{contenido.titulo}</h3>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
 
 .card-container {
-    height: 50vh;
+    height: 60vh;
     width: 30vh;
 }
 
@@ -20,7 +20,7 @@
     backface-visibility: hidden;
     transition: 1s;
     border: solid 1px black;
-    height: 50vh;
+    height: 60vh;
     width: 30vh;
 }
 
