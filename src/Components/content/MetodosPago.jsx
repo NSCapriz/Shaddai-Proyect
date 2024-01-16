@@ -27,14 +27,14 @@ const MetodosPago = () => {
             </div>
         </div>
         <div className="row justify-content-center align-items-center mt-5">
-            <div className="col-md-5">
+            <div className="col-md-5 mb-3 pb-5">
                 <p className='fw-bolder text-center'>Efectivo:</p>
                 <div className="d-flex justify-content-center">
                     <img width="48" height="48" src="https://img.icons8.com/color/48/cash-in-hand.png" alt="cash-in-hand" className='mx-3 img-fluid'/>
                 </div>  
             </div>
-            <div className="col-md-5">
-                <p className='fw-bolder text-center'>Tarjeta:</p>
+            <div className="col-md-5 mb-3 pb-5">
+                <p className='fw-bolder text-center '>Tarjeta:</p>
                 <div className="d-flex justify-content-center">
                 <img width="48" height="48" src="https://img.icons8.com/fluency/48/bank-cards.png" alt="bank-cards" className='mx-3 img-fluid'/>
                 </div>  

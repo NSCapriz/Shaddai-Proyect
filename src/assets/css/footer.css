@@ -1,8 +1,34 @@
 .container-footer{
-    background-color: rgb(26, 146, 136);
+    background-color: rgb(28, 86, 104);
+    color: white;
 }
 
 .container-footer h2 {
     font-size: 1.3rem;
+}
+
+.container-footer a {
+    text-decoration: none;
     color: white;
+}
+
+.container-footer svg{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0 0.8rem;
+}
+
+.Copyright{
+    background-color: rgb(8, 39, 48);
+}
+.Copyright a{
+    text-decoration: none;
+    color: white;
+}
+
+.Copyright a svg{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0 0.2rem;
 }

@@ -23,7 +23,7 @@ const Banner = () => {
 
     return (
         <>
-            <div className="particle-canvas mt-5">
+            <div className="particle-canvas mt-5" id='inicio'>
                 <div className="row align-items-center justify container-banner">
                     <div className="col-md-6">
                         <div className="d-flex justify-content-center align-items-center">

@@ -4,7 +4,7 @@
     border-radius: 50%;
     width: 40%;
     box-shadow: #9bd5eb 0 0 7rem 0.3rem;
-    animation: flotante 5s ease infinite;
+    animation: flotante 4s ease infinite;
 }
 
 .container-banner h1 {
