@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.container-blog{
+    background-color: rgb(101, 175, 165);
+}
+
+.container-blog span p{
+    font: 1.5em 'Dancing Script', cursive;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.container-blog a{
+    background-color: rgb(38, 121, 146);
+    color: white;
+    font-weight: bolder;
+}

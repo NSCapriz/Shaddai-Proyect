@@ -7,13 +7,13 @@ const MetodosPago = () => {
             <div className="container-metodos row  mt-5 pt-5">
                 <h2 className='text-center'>Metodos de pago:</h2>
                 <div className="row justify-content-center align-items-center mt-5">
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-3 pb-5">
                         <p className='fw-bolder text-center'>Mercado pago:</p>
                         <div className="d-flex justify-content-center">
                             <img width="48" height="48" src="https://img.icons8.com/color/48/mercado-pago.png" alt="mercado-pago" className='mx-3 img-fluid' />
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-3 pb-5">
                         <p className='fw-bolder text-center'>Transferencia Bancaria:</p>
                         <div className="d-flex justify-content-center">
                             <img width="48" height="48" src="https://img.icons8.com/color/48/merchant-account.png" alt="merchant-account" className='mx-3 img-fluid' />

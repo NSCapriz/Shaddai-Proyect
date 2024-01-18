@@ -41,7 +41,7 @@ const Banner = () => {
                         </SwitchTransition>
                         <p className='mt-5 px-3'>Shaddai, es un espacio Holistico pensado para todas aquellas personas qe buscan armonía, conocimiento interior, desarrollo y crecimiento personal...</p>
                         <div className="d-flex justify-content-center align-items-center">
-                            <button className='btn btn-success text-white fw-bolder mt-4 mb-5 px-2'>Conocer más</button>
+                            <a href="#blog"><button className='btn btn-success text-white fw-bolder mt-4 mb-5 px-2'>Conocer más</button></a>
                         </div>
                     </div>
                 </div>

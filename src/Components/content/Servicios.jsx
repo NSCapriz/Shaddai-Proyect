@@ -1,5 +1,5 @@
 import '../../assets/css/servicios.css'
-import Card from './Card'
+import Card from '../context/Card'
 
 const Servicios = () => {
     return (

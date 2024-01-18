@@ -26,7 +26,7 @@ const Navbar = () => {
             </button>
             <ul className={`nav-list ${menu ? 'show' : ''}`}>
               <li ><a href='#inicio'>Inicio</a></li>
-              <li className='mx-4'><a href='#queSomos'>¿Qué somos?</a></li>
+              <li ><a href='#queSomos'>¿Qué somos?</a></li>
               <li ><a href='#servicios'>Servicios</a></li>
               <li ><a href='https://shaddaiespacioholistico.blogspot.com/' target='_blank'>Blog</a></li>
             </ul>
