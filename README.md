@@ -9,7 +9,7 @@
     - Se utilizó el lenguaje de Marcado de Hipertexto **HTML** para estructurar y desplegar la página web y sus contenidos.
 	- Se utilizó el leguaje de programación de **Javascript** y el framework **React** junto a **Vite** para el desarrollo Front-end del proyecto.
 	- Se utilizó **CSS** y el framework **Bootstrap** para darle estilos a los componentes del proyecto.
-    -Se utiizó **Firebase** para el hosting del proyecto.
+    - Se utiizó **Firebase** para el hosting del proyecto.
 
     ![logo html](https://img.icons8.com/color/48/html-5--v1.png)
     ![logo css](https://img.icons8.com/fluency/48/css3.png)
