@@ -54,6 +54,9 @@
 
     .container-navbar{  
       border-bottom: solid 2px rgb(255, 255, 255);
+      position: fixed;
+      z-index: 2;
+      padding-bottom: 3rem;
   }
 
   .container-navbar p{

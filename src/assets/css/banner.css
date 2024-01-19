@@ -98,8 +98,7 @@
 @media (max-width: 768px) {
     .container-banner{
         text-align: center;
-        
+        margin-top: 5.5rem;
+        padding-bottom: 4rem;
     }
-
-    
 }
