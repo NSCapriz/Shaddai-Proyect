@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .container-servicios{
     background-color: #65BE96;
@@ -6,4 +7,7 @@
 
 .container-servicios h2{
     font-family: 'Salsa', cursive;
+}
+.container-servicios .frase {
+    font-family: 'Dancing Script', cursive;
 }

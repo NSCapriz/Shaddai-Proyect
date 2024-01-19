@@ -14,7 +14,7 @@ const Servicios = () => {
                     <div className="col-md-6">
                         <p className="text-center my-2 mt-4 fs-5">Descubre la armonía en nuestro espacio holístico, donde nuestras terapias se entrelazan para renovar tu bienestar físico y emocional.</p>
                         <p className="text-center my-3 fs-5">Sumérgete en una experiencia única de relajación y equilibrio.</p>
-                        <p className="text-center my-2 fs-5 fw-bolder">¡Déjanos guiar tu viaje hacia la serenidad y la vitalidad!</p>
+                        <p className="text-center my-2 fs-4 fw-bolder frase">¡Déjanos guiar tu viaje hacia la serenidad y la vitalidad!</p>
                     </div>
                 </div>
                 <div className="row justify-content-center aling-items-center">
