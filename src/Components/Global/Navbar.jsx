@@ -15,7 +15,9 @@ const Navbar = () => {
       <div className="row">
         <div className="container-navbar d-flex justify-content-between px-3 py-2">
           <div className='d-flex justify-content-start'>
-            <img src={logo} alt="Shaddai" className='me-3 img-fluid' />
+            <a href="#inicio">
+              <img src={logo} alt="Shaddai" className='me-3 img-fluid' />
+            </a>
             <p className='fs-3 d-flex align-items-center'>Shaddai</p>
           </div>
           < div className={`container_navbar--links ${menu ? 'open' : ''}`}>

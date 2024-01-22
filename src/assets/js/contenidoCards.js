@@ -1,5 +1,7 @@
 import ReikiUsui from '../../assets/img/reiki.png'
 import ReikiEnergy from '../../assets/img/reiki-energy.png'
+import ReikiMariel from '../../assets/img/reiki-mariel.png'
+import SanacionEnergetica from '../../assets/img/sanacion.png'
 import Flores from '../../assets/img/flores.png'
 import Numerologia from '../../assets/img/numerologia.png'
 import Masajes from '../../assets/img/masaje.png'
@@ -7,6 +9,7 @@ import Tarot from '../../assets/img/tarot.png'
 import Barras from '../../assets/img/masaje-facial.png'
 import Aromaterapia from '../../assets/img/aceite-esencial.png'
 import Meditacion from '../../assets/img/meditacion.png'
+import Yoga from '../../assets/img/yoga.png'
 import Cursos from '../../assets/img/taller.png'
 import Productos from '../../assets/img/producto-natural.png'
 
@@ -19,7 +22,17 @@ export const contenido = [
     {
         imagen: ReikiEnergy,
         titulo: 'Reiki Energy',
-        txt: " Es una Terapia  muy especial, que utiliza la energía en diferentes puntos del cuerpo, y que busca armonizar la energía propia para alcanzar la paz interior.",
+        txt: "Es una Terapia  muy especial, que utiliza la energía en diferentes puntos del cuerpo, y que busca armonizar la energía propia para alcanzar la paz interior.",
+    },
+    {
+        imagen: ReikiMariel,
+        titulo: 'Reiki Mariel',
+        txt: "Es una terapia, por medio de la energia sanadora de la Virgen, donde se tratan conflictos familiares, facilitando la sanación de traumas y rencores, permitiendo la evolución personal y restaurando así el equilibrio emocional.",
+    },
+    {
+        imagen: SanacionEnergetica,
+        titulo: 'Sanación Energetica (Grupales o Privada)',
+        txt: "Regálate un encuentro transformador para reconectar con tu ser, la tierra y los ángeles, vibrando en amor infinito. Mejora emocional, física y energética con meditación, limpieza, mensajes angelicales y más. ¡Experiencia de paz y transformación garantizada!",
     },
     {
         imagen: Flores,
@@ -29,7 +42,7 @@ export const contenido = [
     {
         imagen: Numerologia,
         titulo: 'Numerología',
-        txt: "Con la numerología podersconocer tu orientación espiritual y energética en función a una carta numerológica y ayudarte a entender tu camino de vida.",
+        txt: "Con la numerología podes conocer tu orientación espiritual y energética en función a una carta numerológica, que te ayudará a entender tu camino de vida.",
     },
     {
         imagen: Masajes,
@@ -57,6 +70,11 @@ export const contenido = [
         txt: "Es la técnica por la cual una persona entrena la mente, para enfocar la mente en un objetivo, pensamiento o actividad en particular y darte una sensación de calma, paz y equilibrio.",
     },
     {
+        imagen: Yoga,
+        titulo: 'Clases de Yoga',
+        txt: "El yoga es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general y sobre todo reducir el estrés.",
+    },
+    {
         imagen: Cursos,
         titulo: 'Cursos y Talleres',
         txt: "Contamos con variedad de cursos y talleres para que puedas aprender, fórmarte y ser capaz de desarrollar alguna de las terapias o actividades que realizamos en nuestro espacio.",
@@ -65,5 +83,5 @@ export const contenido = [
         imagen: Productos,
         titulo: 'Productos Hólisticos',
         txt: "Contamos con varios productos hechos con ingredientes naturales que te ayudaran a mantener el equilibrio integral y lograr la armonía de los estados de ánimo.",
-    },
+    }
 ];

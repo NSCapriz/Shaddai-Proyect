@@ -14,11 +14,11 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner />
-      <QueSomos/>
-      <Servicios/>
-      <Blog/>
-      <MetodosPago/>
-      <Footer/>
+      <QueSomos />
+      <Servicios />
+      <Blog />
+      <MetodosPago />
+      <Footer />
     </>
   )
 }
