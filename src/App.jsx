@@ -7,6 +7,7 @@ import Servicios from './Components/content/Servicios'
 import MetodosPago from './Components/content/MetodosPago'
 import Footer from './Components/Global/Footer'
 import Blog from './Components/content/Blog'
+import Contacto from './Components/content/contacto'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <QueSomos />
       <Servicios />
       <Blog />
+      <Contacto/>
       <MetodosPago />
       <Footer />
     </>
