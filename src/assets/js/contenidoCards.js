@@ -32,7 +32,7 @@ export const contenido = [
     {
         imagen: SanacionEnergetica,
         titulo: 'Sanación Energetica',
-        txt: "Regálate un encuentro transformador para reconectar con tu ser, la tierra y los ángeles, vibrando en amor infinito. Mejorá emocional, física y energéticamente con meditación, limpieza, mensajes angelicales y más. ¡Experiencia de paz y transformación garantizada! (Puede ser grupal o privado)",
+        txt: "Regálate un encuentro para reconectar con tu ser, la tierra y los ángeles, vibrando en amor infinito. Mejorá emocional, física y energéticamente con meditación, limpieza, mensajes angelicales y más...",
     },
     {
         imagen: Flores,

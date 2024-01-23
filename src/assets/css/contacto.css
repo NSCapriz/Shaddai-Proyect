@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.container-contacto{
+    background-color: rgb(11, 78, 56);
+    color: white;
+}
+
+.container-contacto h2{
+    font-family: 'Salsa', cursive;
+}
+
+.container-contacto h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+.container-contacto span p{
+    font-family: 'Salsa', cursive;
+    margin-top: 3rem;
+}
+
+form{
+    background-color: rgba(247, 243, 243, 0.295);
+    border-radius: 25px;
+}
+
+.container-formulario input, textarea{
+    width: 60%;
+    text-align: center;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container-formulario input{
+    height: 2.5rem;
+}
+
+.container-formulario label{
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+
+.container-formulario .btn {
+    background-color: rgb(6, 136, 93);
+    border: solid 1px  rgb(10, 85, 60);
+}
+
+
+@media (max-width: 768px) {
+    .container-contacto h3{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .container-formulario{
+        width: 100%;
+    }
+  }

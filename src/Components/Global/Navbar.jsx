@@ -31,6 +31,7 @@ const Navbar = () => {
               <li ><a href='#queSomos'>¿Qué somos?</a></li>
               <li ><a href='#servicios'>Servicios</a></li>
               <li ><a href='https://shaddaiespacioholistico.blogspot.com/' target='_blank'>Blog</a></li>
+              <li ><a href='#contacto'>Contacto</a></li>
             </ul>
           </div>
         </div>
